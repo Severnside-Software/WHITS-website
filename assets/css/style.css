@@ -4,23 +4,29 @@ body {
     padding-top: 56px; /* Adjusted for fixed navbar */
 }
 .hero-image {
-    background-image: url('assets/images/pexels-lukas-574069.jpg'); /* Replace with your hero image URL */
+    background-image: url('../images/pexels-lukas-574069.jpg'); /* Replace with your hero image URL */
+    /* filter: brightness(60%); */
     background-size: cover;
     height: 400px; /* Adjust the height as needed */
     display: flex;
     align-items: center;
-    color: white;
+    /* color: white; */
     text-align: center;
+}
+
+.white-house, .lead {
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* Navigation Links */
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #003750;
     transition: color 0.3s ease-in-out;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f8f9fa; /* Light gray on hover */
+    color: #44bac1; /* WHITS light blue on hover */
 }
 
 /* Brand Logo/Text in the Navbar */
@@ -44,7 +50,13 @@ body {
 
 /* Active Link */
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-    color: #f8f9fa; /* Light gray for active link */
+    color: #003750; /* Light gray for active link */
+}
+
+hr {
+    border-top: 3px solid #e39245;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* Add some spacing between cards */
@@ -108,7 +120,8 @@ footer a {
 }
 
 footer a:hover {
-    color: #f8f9fa; /* Light gray on hover */
+    color: #44bac1; /* WHITS light blue on hover */
+    text-decoration: none;
 }
 
 /* Social Links */
@@ -120,7 +133,7 @@ footer a:hover {
 }
 
 .social-links a:hover {
-    color: #f8f9fa; /* Light gray on hover */
+    color: #44bac1; /* WHITS light blue on hover */
 }
 
 /* Footer Bottom */

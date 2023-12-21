@@ -37,6 +37,7 @@ p {
 .white-house, .lead {
     color: #ffffff;
     font-weight: bold;
+    /* transform: rotate(-2deg); */ /* Optional: Rotate the text slightly */
 }
 
 /* Navigation Links */
@@ -70,13 +71,35 @@ p {
 
 /* Active Link */
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-    color: #003750; /* Light gray for active link */
+    color: #003750; /* WHITS dark blue for active link */
+}
+
+/* Lead content */
+.about-us-container {
+    text-align: center;
+}
+
+.we-help, .we-share {
+    font-family: 'Poppins', sans-serif;
+    color: #003750; /* WHITS dark blue for headings */
+}
+
+.we-share {
+    font-style: italic;
+    margin-bottom: 10px; /* Add space between headings */
+}
+
+.about-us-container p {
+    font-family: 'Sora', sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #343a40; /* Dark text color */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
 }
 
 hr {
     border-top: 3px solid #e39245;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin: 20px 0; /* Add space above and below the hr line */
 }
 
 /* Add some spacing between cards */
@@ -114,10 +137,9 @@ hr {
 }
 
 /* Style the Font Awesome icons' colors */
-.card i.text-primary { color: #007bff; } /* Blue for IT Support */
-.card i.text-success { color: #28a745; } /* Green for Software Development */
-.card i.text-warning { color: #ffc107; } /* Yellow for Partners */
-.card i.text-danger { color: #dc3545; } /* Red for Cyber Security */
+.card i.icon {
+    color: #44bac1;
+}
 
 /* Footer Section */
 footer {

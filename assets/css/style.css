@@ -2,16 +2,27 @@
 
 body {
     padding-top: 56px; /* Adjusted for fixed navbar */
-}
+/* Update this in your style.css file */
+
 .hero-image {
-    background-image: url('../images/pexels-lukas-574069.jpg'); /* Replace with your hero image URL */
-    /* filter: brightness(60%); */
+    position: relative;
+    background-image: url('../images/pexels-lukas-574069.jpg');
     background-size: cover;
     height: 400px; /* Adjust the height as needed */
     display: flex;
     align-items: center;
-    /* color: white; */
+    color: #ffffff;
     text-align: center;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
 }
 
 .white-house, .lead {

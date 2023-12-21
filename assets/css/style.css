@@ -2,7 +2,15 @@
 
 body {
     padding-top: 56px; /* Adjusted for fixed navbar */
-/* Update this in your style.css file */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+}
 
 .hero-image {
     position: relative;
@@ -23,10 +31,10 @@ body {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     padding: 20px;
     border-radius: 10px; /* Optional: Add rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* 3D text-shadow effect */
 }
 
 .white-house, .lead {
-    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: bold;
 }

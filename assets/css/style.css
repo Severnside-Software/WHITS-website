@@ -15,6 +15,7 @@ body {
 }
 
 .white-house, .lead {
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
     font-weight: bold;
 }

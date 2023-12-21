@@ -13,6 +13,40 @@ body {
     text-align: center;
 }
 
+/* Navigation Links */
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Light gray on hover */
+}
+
+/* Brand Logo/Text in the Navbar */
+.navbar-light .navbar-brand {
+    color: #003750;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #44bac1 /* WHITS light blue on hover */
+}
+
+/* Navbar Background */
+.navbar-light {
+    background-color: #343a40; /* Dark gray background */
+}
+
+/* Hamburger Icon Color */
+.navbar-light .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Active Link */
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: #f8f9fa; /* Light gray for active link */
+}
+
 /* Add some spacing between cards */
 .card {
     margin-bottom: 20px;

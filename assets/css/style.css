@@ -1,0 +1,98 @@
+/* style.css */
+
+body {
+    padding-top: 56px; /* Adjusted for fixed navbar */
+}
+.hero-image {
+    background-image: url('assets/images/pexels-lukas-574069.jpg'); /* Replace with your hero image URL */
+    background-size: cover;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Add some spacing between cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Style the card titles */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003750;
+}
+
+/* Style the card icons */
+.card i {
+    display: block;
+}
+
+/* Add a subtle box shadow to cards on hover */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Style the card backgrounds and text colors */
+.card:nth-child(odd) {
+    background-color: #f8f9fa; /* Light gray background for odd cards */
+    color: #343a40; /* Dark text color for odd cards */
+}
+
+.card:nth-child(even) {
+    background-color: #ffffff; /* White background for even cards */
+    color: #343a40; /* Dark text color for even cards */
+}
+
+/* Style the Font Awesome icons' colors */
+.card i.text-primary { color: #007bff; } /* Blue for IT Support */
+.card i.text-success { color: #28a745; } /* Green for Software Development */
+.card i.text-warning { color: #ffc107; } /* Yellow for Partners */
+.card i.text-danger { color: #dc3545; } /* Red for Cyber Security */
+
+/* Footer Section */
+footer {
+    padding: 40px 0;
+}
+
+/* Footer Links */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa; /* Light gray on hover */
+}
+
+/* Social Links */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.social-links a:hover {
+    color: #f8f9fa; /* Light gray on hover */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    background-color: #343a40; /* Dark gray background */
+    color: #f8f9fa; /* Light gray text */
+    margin-top: 20px;
+    padding: 10px 0;
+}

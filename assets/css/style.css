@@ -102,9 +102,50 @@ hr {
     margin: 20px 0; /* Add space above and below the hr line */
 }
 
+/* Button Container  and Custom Buttons */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+@media (max-width: 767px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .custom-button {
+        margin: 5px 0; /* Adjust the margin for stacked buttons on mobile */
+    }
+}
+
+/* Custom Buttons */
+.custom-button {
+    margin: 0 10px; /* Adjust the margin to control space between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #003750;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition */
+
+    /* Box shadow for a 3D effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+
+    /* Additional styles for hover effect */
+    &:hover {
+        background-color: #005682;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Adjust the values for hover effect */
+    }
+}
+
 /* Add some spacing between cards */
 .card {
     margin-bottom: 20px;
+    transition: border 0.3s ease; /* Add a smooth transition effect */
 }
 
 /* Style the card titles */
@@ -119,21 +160,19 @@ hr {
     display: block;
 }
 
-/* Add a subtle box shadow to cards on hover */
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
+    transform: scale(1.05); /* Scale up by 5% on hover */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add transition for transform */
 }
 
-/* Style the card backgrounds and text colors */
-.card:nth-child(odd) {
-    background-color: #f8f9fa; /* Light gray background for odd cards */
-    color: #343a40; /* Dark text color for odd cards */
-}
-
-.card:nth-child(even) {
-    background-color: #ffffff; /* White background for even cards */
-    color: #343a40; /* Dark text color for even cards */
+/* Add this style for the hover effect */
+.card:hover,
+.card:focus {
+  border: 3px solid;
+  border-image: linear-gradient(to bottom, #e39245, #ffcc99);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #e39245, #ffcc99);
 }
 
 /* Style the Font Awesome icons' colors */
@@ -223,4 +262,9 @@ footer a:hover {
 
 .commitment-container li {
     margin-bottom: 10px;
+}
+
+.support-paragraph {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

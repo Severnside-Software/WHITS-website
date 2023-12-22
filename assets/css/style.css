@@ -187,6 +187,17 @@ footer a:hover {
 }
 
 /* Styling for the About page */
+.hero-image-about {
+    position: relative;
+    background-image: url('../images/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg');
+    background-size: cover;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
 .commitment-container {
     background-color: #44bac1; /* Blue background color */
     color: #ffffff; /* White text color */

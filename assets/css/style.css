@@ -185,3 +185,31 @@ footer a:hover {
     margin-top: 20px;
     padding: 10px 0;
 }
+
+/* Styling for the About page */
+.commitment-container {
+    background-color: #44bac1; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    text-align: justify; /* Justify text for a clean look */
+}
+
+.commitment-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.commitment-container p {
+    font-size: 18px;
+}
+
+.commitment-container ul {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.commitment-container li {
+    margin-bottom: 10px;
+}

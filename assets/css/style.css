@@ -306,3 +306,60 @@ footer a:hover {
       width: calc(50% - 10px); /* Adjust the width and margin as needed */
     }
   }
+
+  /* Style for Let's Talk heading */
+.lets-talk {
+    font-size: 2.5em;
+    color: #003750;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Style for the supporting text */
+  .contact-h3 {
+    font-size: 1.2em;
+    color: #343a40;
+    margin-bottom: 30px;
+    font-style: italic;
+  }
+
+  /* Style for form labels */
+.contact-form label {
+    color: #333; /* Dark grey color for labels */
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  /* Style for form fields */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    border: 1px solid #ccc; /* Set the border color */
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Style for form field focus state */
+  .contact-form input[type="text"]:focus,
+  .contact-form input[type="email"]:focus,
+  .contact-form textarea:focus {
+    border-color: #e39245; /* Orange color on focus */
+    box-shadow: 0 0 5px rgba(227, 146, 69, 0.5); /* Orange box shadow on focus */
+  }
+  
+  /* Style for the submit button */
+  .contact-form button {
+    background-color: #e39245; /* Orange color for the button */
+    color: #fff; /* White text color for the button */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Style for the submit button hover state */
+  .contact-form button:hover {
+    background-color: #ffcc99; /* Lighter orange on hover */
+  }

@@ -142,6 +142,27 @@ hr {
     }
 }
 
+.custom-contact-button {
+    margin: 0 10px; /* Adjust the margin to control space between buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e39245;
+    color: #003750;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Add box-shadow to the transition */
+
+    /* Box shadow for a 3D effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+
+    /* Additional styles for hover effect */
+    &:hover {
+        background-color: #f1b778;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Adjust the values for hover effect */
+    }
+}
+
 /* Add some spacing between cards */
 .card {
     margin-bottom: 20px;

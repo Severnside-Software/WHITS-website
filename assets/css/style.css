@@ -82,11 +82,16 @@ p {
 .we-help, .we-share {
     font-family: 'Poppins', sans-serif;
     color: #003750; /* WHITS dark blue for headings */
+    margin-bottom: 25px;
+}
+
+.we-help {
+    margin-top: 25px;
 }
 
 .we-share {
     font-style: italic;
-    margin-bottom: 10px; /* Add space between headings */
+    margin-bottom: 25px; /* Add space between headings */
 }
 
 .about-us-container p {
@@ -258,7 +263,8 @@ footer a:hover {
     text-align: center;
 }
 
-.commitment-container {
+.commitment-container,
+.call-to-action-container {
     background-color: #44bac1; /* Blue background color */
     color: #ffffff; /* White text color */
     padding: 20px;
@@ -267,12 +273,14 @@ footer a:hover {
     text-align: justify; /* Justify text for a clean look */
 }
 
-.commitment-container h3 {
+.commitment-container h3,
+.call-to-action-container h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
-.commitment-container p {
+.commitment-container p
+.call-to-action-container p {
     font-size: 18px;
 }
 

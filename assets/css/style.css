@@ -251,18 +251,6 @@ footer a:hover {
     padding: 10px 0;
 }
 
-/* Styling for the About page */
-.hero-image-about {
-    position: relative;
-    background-image: url('../images/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg');
-    background-size: cover;
-    height: 400px; /* Adjust the height as needed */
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-    text-align: center;
-}
-
 .commitment-container,
 .call-to-action-container {
     background-color: #44bac1; /* Blue background color */
@@ -297,3 +285,24 @@ footer a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.contact-container {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff; /* Set your desired background color */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    margin-top: 50px;
+  }
+  
+  @media (min-width: 992px) {
+    .contact-container {
+      display: flex;
+      justify-content: space-between; /* Add this to distribute space between children */
+    }
+  
+    .contact-heading,
+    .contact-form {
+      width: calc(50% - 10px); /* Adjust the width and margin as needed */
+    }
+  }
